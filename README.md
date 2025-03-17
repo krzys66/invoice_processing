@@ -2,7 +2,7 @@ TO RUN THE SITE:
 
 1. Start Apache and mySQL in XAMPP Control Panel
 
-2. In the phpMyAdmin import the sql file,
+2. In the phpMyAdmin import the sql file `invoice_processing.sql`,
 
 3. Extract files to the folder in `xampp/htdocs`, 
 
