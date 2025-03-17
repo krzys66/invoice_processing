@@ -1,5 +1,11 @@
-START SERVER IN NGROK: ngrok http --url=causal-sharply-cow.ngrok-free.app 80
+TO RUN THE SITE: 
 
-LONG URL TO OPEN SITE: https://causal-sharply-cow.ngrok-free.app/invoice_processing_using_ocr/add_invoice.php
+1. Start Apache and mySQL in XAMPP Control Panel
 
-SHORT URL TO OPEN SITE: bit.ly/processInvoice
+2. In the phpMyAdmin import the sql file,
+
+3. Extract files to the folder in `xampp/htdocs`, 
+
+4. Open this folder in browser: `localhost/your_folder` 
+
+
