@@ -8,7 +8,9 @@ TO RUN THE SITE:
 
 4. Open this folder in browser: `localhost/your_folder` 
 
-`You need your API key & Endpoint from Microsoft Azure AI to run the site`
+You also need: 
+  ** API key & Endpoint from Microsoft Azure AI to run the site
+  ** Email and Password to set up SMTP server. It able you to send e-mails  
 
 The CRON script was enabled locally. If you want to start processing invoices, you must manually enable the script that is in: `scripts/invoice_ocr_script`
 
