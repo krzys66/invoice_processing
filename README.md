@@ -8,4 +8,8 @@ TO RUN THE SITE:
 
 4. Open this folder in browser: `localhost/your_folder` 
 
+`You need your API key & Endpoint from Microsoft Azure AI to run the site`
+
+The CRON script was enabled locally. If you want to start processing invoices, you must manually enable the script that is in: `scripts/invoice_ocr_script`
+
 
