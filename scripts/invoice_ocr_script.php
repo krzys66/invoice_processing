@@ -97,8 +97,8 @@ if (count($images) > 0) {
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'YOUR_EMAIL_ADDRESS';
-                    $mail->Password = 'YOUR_EMAIL_PASSWORD';
+                    $mail->Username = 'patulekk.bsp@gmail.com';
+                    $mail->Password = 'idum usbo amgy suwj';
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = 587;
 
