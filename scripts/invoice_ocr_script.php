@@ -9,8 +9,8 @@ require '../vendor/phpmailer/phpmailer/src/SMTP.php';
 $folder_path = 'C:\xampp\htdocs\invoice_processing_using_ocr\uploads\\';
 $processed_folder = 'C:\xampp\htdocs\invoice_processing_using_ocr\processed\\';
 
-$subscription_key = '6rpsJj314Z9tGHQmX7AuI2W6hsloJ68hvCyG82IUgDWLT0lmsDT4JQQJ99BCAC5RqLJXJ3w3AAAFACOGNsv4';
-$endpoint = 'https://invoiceprocessingusingocr.cognitiveservices.azure.com/vision/v3.2/ocr';  
+$subscription_key = 'YOUR_API_KEY';
+$endpoint = 'YOUR_ENDPOINT';  
 
 if (!is_dir($processed_folder)) {
     mkdir($processed_folder, 0777, true); 
@@ -97,8 +97,8 @@ if (count($images) > 0) {
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'patulekk.bsp@gmail.com';
-                    $mail->Password = 'idum usbo amgy suwj';
+                    $mail->Username = 'YOUR_EMAIL_ADDRESS';
+                    $mail->Password = 'YOUR_EMAIL_PASSWORD';
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = 587;
 

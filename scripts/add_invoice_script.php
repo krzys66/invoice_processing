@@ -16,7 +16,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["invoice-photo-php"]))
     $original_name = basename($_FILES["invoice-photo-php"]["name"]);
     $imageFileType = strtolower(pathinfo($original_name, PATHINFO_EXTENSION));
     
-    // Check if the file is an image
     $valid_extensions = array("jpg", "jpeg", "png", "gif");
     if (!in_array($imageFileType, $valid_extensions)) {
         $_SESSION['invoice_error'] = 'File is not an image!';
